@@ -16,4 +16,4 @@
 
 # Description
 
-Moto Application is Developed using 
+Moto Application is Developed using Mern Stack technology 
