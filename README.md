@@ -16,4 +16,4 @@
 
 ### Description
 
-Moto Automotive is a Full Stack 
+Moto Automotive is a Full Stack Web Application
