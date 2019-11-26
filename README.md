@@ -16,4 +16,4 @@
 
 ### Description
 
-Moto Application is Developed using 
+Moto  
