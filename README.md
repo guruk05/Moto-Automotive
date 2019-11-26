@@ -4,7 +4,7 @@
 
 * Guru prasath 
 
-## Technology Used 
+### Technology Used 
 
 * React Js
 
