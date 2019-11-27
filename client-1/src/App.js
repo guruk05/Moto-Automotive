@@ -11,10 +11,6 @@ import EmployeeForm from './Components/Form/form'
 import Authentication from './Components/Authentication/auth'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import Card from './Card.js'
-// import socketIOClient from "socket.io-client";
-// import openSocket from 'socket.io-client';
-// import { subscribeToTimer } from './test';
-// import {Card, Form, InputGroup , CardDeck , Button} from 'react-bootstrap';
 
 
 class App extends Component {
