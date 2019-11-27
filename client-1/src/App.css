@@ -19,4 +19,12 @@
 }
 .x{
   color:black;
+
 }
+
+.cards{
+  margin-top: 10vmin;
+  display: flex;
+  justify-content: center;
+}
+
