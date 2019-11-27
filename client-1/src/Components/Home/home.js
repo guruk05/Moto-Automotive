@@ -27,6 +27,15 @@ class Home extends Component {
 	}
 	  
     
+    receiveDataFromChild = (data) => {
+      console.log(data);
+      // socket.emit('send message', data);
+      this.setState({data});
+      // console.log(this.state.data);
+      // let formData = this.state;
+      // console.log(formData);
+      // console.log(formData.data.commentToUser);
+    }
 	
 	render() {
 	  return (
