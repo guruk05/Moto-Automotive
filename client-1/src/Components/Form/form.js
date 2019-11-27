@@ -16,7 +16,18 @@ class EmployeeForm extends React.Component{
     constructor(props){
         super(props)
 
-        
+        this.state = {
+            employeeName: "",
+            bikesAllocated:"",
+            bikeTypes: "",
+            availableBikes: "",
+            petrolLessThan10L: "",
+            petrolGreaterThan10L:"",
+            petrolGreaterThan20L: "",
+            airPressure: "",
+            puncturedBikes: "",
+            commentToUser: "I am Billionaire"
+        }  
     }
 
     
