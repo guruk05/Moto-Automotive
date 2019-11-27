@@ -27,7 +27,13 @@ class App extends Component {
     }
   }
   
-   
+    handleChange = () =>{
+      this.setState({
+        isLoggedIn: !this.state.isLoggedIn
+      },()=>{
+        localStorage.setItem("loggedIn",this.state.isLoggedIn)
+      })
+    }
 	  
     
     
