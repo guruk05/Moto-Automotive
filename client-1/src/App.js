@@ -15,3 +15,22 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import openSocket from 'socket.io-client';
 // import { subscribeToTimer } from './test';
 // import {Card, Form, InputGroup , CardDeck , Button} from 'react-bootstrap';
+
+
+class App extends Component {
+
+	constructor(props) {
+	  super(props);
+	 
+  }
+  
+   
+	  
+    
+    
+  
+	
+	render() {
+    
+
+export default App;
