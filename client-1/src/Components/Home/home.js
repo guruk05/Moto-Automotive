@@ -26,7 +26,10 @@ class Home extends Component {
     }
 	}
 	  
-    
+    showData = (e) => {
+
+    }
+  
     receiveDataFromChild = (data) => {
       console.log(data);
       // socket.emit('send message', data);
