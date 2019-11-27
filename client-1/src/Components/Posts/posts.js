@@ -16,8 +16,12 @@ class Posts extends Component{
     }
 
 
-   
+    componentDidMount(){
+        this.getdata();
     }
+
+
+  
 }
 
 export default Posts;
