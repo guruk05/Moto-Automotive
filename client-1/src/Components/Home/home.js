@@ -6,9 +6,7 @@ import EmployeeForm from '../Form/form';
 // import Posts from './Posts.js';
 // import About from './About.js';
 // import Nav from './Nav';
-// import Authentication from './Authentication'
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import Card from './Card.js'
+
 
 
 import openSocket from 'socket.io-client';
