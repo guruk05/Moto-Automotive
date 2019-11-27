@@ -12,3 +12,24 @@ const  socket = openSocket('http://localhost:8000');
 
 
 
+class EmployeeForm extends React.Component{
+    constructor(props){
+        super(props)
+
+        
+    }
+
+    
+
+
+      
+
+
+    render() {
+        return(
+          
+    }
+}
+
+
+export default EmployeeForm;
