@@ -35,7 +35,23 @@ class Posts extends Component{
 }
 
 
-    
+    render() {
+        return(
+            <div>
+                <Nav></Nav>
+                <h1>
+                    Posts
+                    {this.state.data.map(i => {
+                        return(
+                            <div>
+                                {i.commentToUser}
+                            </div>
+                        )
+                    })}
+                </h1>
+            </div>
+        )
+    }
 }
 
 export default Posts;
