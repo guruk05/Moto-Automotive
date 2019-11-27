@@ -30,7 +30,29 @@ class EmployeeForm extends React.Component{
         }  
     }
 
-    
+    handleChange = (evt) => {
+        let employeeName = evt.target.name;
+        let bikesAllocated = evt.target.name;
+        let bikeTypes = evt.target.name;
+        let availableBikes = evt.target.name;
+        let petrolLessThan10L = evt.target.name;
+        let petrolGreaterThan10L = evt.target.name;
+        let petrolGreaterThan20L = evt.target.name;
+        let airPressure = evt.target.name;
+        let puncturedBikes = evt.target.name;
+        let commentToUser = evt.target.name;
+  
+        this.setState({ [employeeName]: evt.target.value });
+        this.setState({ [bikesAllocated]: evt.target.value });
+        this.setState({ [bikeTypes]: evt.target.value });
+        this.setState({ [availableBikes]: evt.target.value });
+        this.setState({ [petrolLessThan10L]: evt.target.value });
+        this.setState({ [petrolGreaterThan10L]: evt.target.value });
+        this.setState({ [petrolGreaterThan20L]: evt.target.value });
+        this.setState({ [airPressure]: evt.target.value });
+        this.setState({ [puncturedBikes]: evt.target.value });
+        this.setState({ [commentToUser]: evt.target.value });
+      }
 
 
       
