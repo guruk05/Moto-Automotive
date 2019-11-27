@@ -21,7 +21,21 @@ class Posts extends Component{
     }
 
 
-  
+  async getdata() {
+      try {
+        const response = await axios.get('http://localhost:8000/posts')
+        let datas = await response.data;
+        this.setState({data:datas});
+    // console.log(response);
+    // console.log(response.data);
+      }
+   catch (err) {
+    console.log(err);
+   }
+}
+
+
+    
 }
 
 export default Posts;
