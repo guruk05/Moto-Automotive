@@ -41,7 +41,7 @@ class App extends Component {
       // console.log(this.state.data);
       // let formData = this.state;
       // console.log(formData);
-      // console.log(formData.data.commentToUser);
+     
     }
 	
 	render() {
