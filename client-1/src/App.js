@@ -35,7 +35,9 @@ class App extends Component {
       })
     }
 	  
-    
+    showData = (e) => {
+
+    }
     
   
 	
