@@ -26,9 +26,7 @@ class Home extends Component {
     }
 	}
 	  
-    showData = (e) => {
 
-    }
   
     receiveDataFromChild = (data) => {
       console.log(data);
