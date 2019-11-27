@@ -24,9 +24,18 @@ class Home extends Component {
 	  this.state = {
       data:""
     }
-    }
-}
+	}
 	  
-   
+    
+	
+	render() {
+	  return (
+      <div>
+      <EmployeeForm sendDataToParent={this.receiveDataFromChild}/>
+      {/* <Authentication/> */}
+      </div>
+    )
+	}
+}
 
 export default Home;
