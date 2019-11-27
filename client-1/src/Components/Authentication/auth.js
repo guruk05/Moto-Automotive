@@ -14,7 +14,8 @@ class Authentication extends Component {
             employeePassword:"",
             isLoggedIn: null
         }
-       
+        this.handleInput = this.handleInput.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
 
