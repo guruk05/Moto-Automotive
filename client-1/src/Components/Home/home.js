@@ -13,3 +13,6 @@ import EmployeeForm from '../Form/form';
 // import openSocket from 'socket.io-client';
 // import { subscribeToTimer } from './test';
 // import {Card, Form, InputGroup , CardDeck , Button} from 'react-bootstrap';
+
+import openSocket from 'socket.io-client';
+const  socket = openSocket('http://localhost:8000');
