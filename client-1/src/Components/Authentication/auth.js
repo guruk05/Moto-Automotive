@@ -5,3 +5,29 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBCard, MDBCardBody, MDBInput } from 'mdbreact';
 import 'mdbreact/dist/css/mdb.css';
 import './auth.css';
+
+class Authentication extends Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            employeeId:"",
+            employeePassword:"",
+            isLoggedIn: null
+        }
+       
+    }
+
+
+
+    
+            
+
+    render(){
+        
+        }
+    }
+}
+
+
+
+export default Authentication;
