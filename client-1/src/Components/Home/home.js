@@ -4,8 +4,7 @@ import React, { Component } from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import EmployeeForm from '../Form/form';
 // import Posts from './Posts.js';
-// import About from './About.js';
-// import Nav from './Nav';
+
 
 
 
