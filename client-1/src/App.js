@@ -49,6 +49,23 @@ class App extends Component {
     }
 	
 	render() {
-    
+    const { isLoggedIn } = this.state
+	  return (
+      <div>
+        <Router>
+            {/* <Nav></Nav> */}
+            <Switch>  
+              <Route exact path = '/Posts' component = {Posts}/>
+              <Route exact path = '/About' component = {About}/>
+              <Route path = '/' render={()=>localStorage.getItem("loggedIn")?(<EmployeeForm/>):(<Authentication toggle={this.handleChange}/>)}/>
+            </Switch> 
+        {/* <Home></Home> */}
+        </Router>
+      {/* <EmployeeForm sendDataToParent={this.receiveDataFromChild}/>
+      <Authentication/> */}
+      </div>
+    )
+	}
+}
 
 export default App;
