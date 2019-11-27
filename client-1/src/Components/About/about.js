@@ -10,7 +10,16 @@ class About extends Component{
     }
 
     render() {
-        
+        return(
+            <div>
+                <Nav></Nav>
+                {/* <h1> */}
+                    About
+                  {/* <FormPage></FormPage> */}
+                  <NavbarPage></NavbarPage>
+                {/* </h1> */}
+            </div>
+        )
     }
 }
 
