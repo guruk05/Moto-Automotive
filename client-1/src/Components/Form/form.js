@@ -55,7 +55,15 @@ class EmployeeForm extends React.Component{
       }
 
 
-      
+      sendDataToParent = (e) => {
+        e.preventDefault();
+        let data = this.state;
+        console.log("here");
+        // console.log(formData);
+        // this.props.sendDataToParent(this.state);
+        // console.log(formData.commentToUser);
+        socket.emit('send message', data);
+      }
 
 
     render() {
