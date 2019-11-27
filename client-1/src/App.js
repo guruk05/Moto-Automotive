@@ -10,7 +10,7 @@ import Nav from './Nav';
 import EmployeeForm from './Components/Form/form'
 import Authentication from './Components/Authentication/auth'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-// import Card from './Card.js'
+
 
 
 class App extends Component {
