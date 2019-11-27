@@ -3,3 +3,15 @@ import React, { Component } from 'react';
 import Nav from '../Navigation/nav';
 // import FormPage from '../login/login';
 import NavbarPage from '../login/login'
+
+class About extends Component{
+    constructor(props){
+        super(props)
+    }
+
+    render() {
+        
+    }
+}
+
+export default About;
