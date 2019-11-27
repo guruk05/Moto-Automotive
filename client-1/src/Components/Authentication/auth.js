@@ -113,6 +113,14 @@ class Authentication extends Component {
         </MDBContainer>
             )
         }
+        else if (this.state.isLoggedIn===true) {
+            return(
+                <div>
+                    <Router>
+                    <Route to = '/home' component = {EmployeeForm}/>
+                    </Router>
+            </div>
+            )
         
             )
         }
