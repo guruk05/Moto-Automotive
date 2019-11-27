@@ -121,7 +121,64 @@ class Authentication extends Component {
                     </Router>
             </div>
             )
-        
+        }
+        else if (this.state.isLoggedIn===false) {
+            return(
+                 <MDBContainer className="login">
+          <MDBRow  className="d-flex justify-content-center">
+            <MDBCol md="6">
+              <MDBCard>
+                <div className="header pt-3 grey lighten-2">
+                  <MDBRow className="d-flex justify-content-start">
+                    <h3 className="deep-grey-text mt-3 mb-4 pb-1 mx-5">
+                      MoTo WorkSpace Login
+                    </h3>
+                  </MDBRow>
+                </div>
+                <form onSubmit = {this.handleSubmit}>
+                <MDBCardBody className="mx-4 mt-4" >
+                  <MDBInput label="Your employee ID" group type="text" validate onChange = {this.handleInput} />
+                  <MDBInput
+                    label="Your employee Password"
+                    group
+                    type="password"
+                    validate
+                    containerClass="mb-0"
+                    onChange = {this.handleInput}
+                  />
+                  <p className="font-small grey-text d-flex justify-content-end">
+                    Forgot
+                    <span
+                      
+                      className="dark-grey-text font-weight-bold ml-1"
+                    >
+                      Password? 
+                      <span> Check </span> 
+                      <span className="dark-grey-text font-weight-bold ml-1">
+                      Email !
+                          </span>
+                    </span>
+                    <p>please enter valid credentials</p>
+                  </p>
+                  <div className="text-center mb-4 mt-5">
+                    <MDBBtn
+                      color="danger"
+                      type="button"
+                      className="btn-block z-depth-2"
+                      onClick={this.props.toggle}
+                    >
+                      Log in
+                    </MDBBtn>
+                  </div>
+                  <p className="font-small grey-text d-flex justify-content-center">
+                    Welcome To WorkSpace
+                  </p>
+                </MDBCardBody>
+                </form>
+              </MDBCard>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
             )
         }
     }
