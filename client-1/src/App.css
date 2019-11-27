@@ -2,3 +2,10 @@
   background-color:whitesmoke;
   height:14vh;
 }
+
+.posts-link{
+  text-align: right;
+  margin-top: 4vmin;
+  font-size: large;
+  color:black;
+}
