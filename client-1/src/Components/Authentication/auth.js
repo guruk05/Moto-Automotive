@@ -20,7 +20,38 @@ class Authentication extends Component {
 
 
 
+    handleInput(evt) {
+        let employeeId = evt.target.name;
+        let employeePassword = evt.target.name;
+        this.setState({ [employeeId]: evt.target.value });
+        this.setState({ [employeePassword]: evt.target.value });   
+    }
+
+
+   async handleSubmit(e) {
+         e.preventDefault();
+       try {
+        let response = await axios.post('http://localhost:8000/login', {
+            auth: {
+              username: this.state.employeeId,
+              password: this.state.employeePassword
+            },
+        })
+        this.setState(state => ({
+            isLoggedIn: true
+          }));
+        }
     
+    catch(err) {
+        this.setState(state => ({
+            isLoggedIn: false,
+            employeeId:"",
+            employeePassword:""
+        }));
+        console.log(err);
+        }
+        // console.log(this.state.isLoggedIn);
+    }
             
 
     render(){
