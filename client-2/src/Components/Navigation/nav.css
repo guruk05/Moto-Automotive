@@ -31,3 +31,21 @@ body{
 .menu h2{
 	color: #F05283;
 }
+
+.menu h2 a{
+	color:inherit;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #F05283;
+	padding: 10px 15px;
+	border-radius: 3px;
+	font: bold 14px/1 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.menu h2 a:hover{
+	background-color:#F05283;
+	transition:0.2s;
+	color:#fff;
+}
+
