@@ -9,3 +9,14 @@ body{
 	padding:0;
 	margin:0;
 }
+
+.menu{
+	text-align: center;
+	padding-top: 25px;
+	margin-bottom:200px;
+}
+
+.menu img{
+	opacity: 0.4;
+	margin: 20px auto;
+}
