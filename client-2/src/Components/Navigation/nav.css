@@ -165,3 +165,14 @@ body{
 	margin: 0;
 }
 
+.header-fixed .header-limiter h1 span {
+	color: #5383d3;
+}
+
+/* The navigation links */
+
+.header-fixed .header-limiter a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
