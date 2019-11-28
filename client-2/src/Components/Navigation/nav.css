@@ -119,3 +119,9 @@ body{
 
 /* -- Link to Tutorialzine -- */
 
+.tz-link{
+	text-decoration: none;
+	color: #fff !important;
+	font: bold 36px Arial,Helvetica,sans-serif !important;
+}
+
