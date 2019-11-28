@@ -190,3 +190,7 @@ body{
 	opacity: 0.9;
 }
 
+.header-fixed .header-limiter nav a:hover{
+	opacity: 1;
+}
+
