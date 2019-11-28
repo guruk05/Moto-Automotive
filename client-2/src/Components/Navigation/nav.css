@@ -260,8 +260,7 @@ body.fixed .header-fixed .header-limiter nav {
 }
 
 /*
-	 We are clearing the body's margin and padding, so that the header fits properly.
-	 We are also adding a height to demonstrate the scrolling behavior. You can remove
+	 
 	
 
 body {
