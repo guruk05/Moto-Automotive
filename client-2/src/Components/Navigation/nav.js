@@ -13,7 +13,7 @@ class Nav extends Component{
             var showHeaderAt = 150;
             var win = $(window),
                     body = $('body');
-            // Show the fixed header only on larger screen devices
+            
             if(win.width() > 600){
                 win.on('scroll', function(e){
                     if(win.scrollTop() > showHeaderAt) {
