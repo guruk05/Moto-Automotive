@@ -21,3 +21,5 @@ class DisplayCard extends Component{
 )
         }
 }
+
+export default DisplayCard;
