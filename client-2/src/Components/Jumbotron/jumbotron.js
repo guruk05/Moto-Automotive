@@ -5,4 +5,8 @@ import './style.css'
 
 
 class Jumbotrons extends Component{
+
+    constructor(props){
+        super(props)
+        
 }
