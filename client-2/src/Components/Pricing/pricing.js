@@ -16,4 +16,6 @@ class Pricing extends Component {
     </p>
   </Container>
 </Jumbotron>
+        )
+}
 }
