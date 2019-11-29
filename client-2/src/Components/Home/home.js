@@ -20,4 +20,18 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 class Home extends Component {
+   
+	constructor(props) {
+        super(props);
+    
+          this.state = {
+          data:[
+            {
+              commentToUser: ''
+            }
+          ],
+          
+          endpoint:'http://localhost:8000',
+          
+        }
 }
