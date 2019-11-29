@@ -23,5 +23,9 @@ render(){
 </p>
 </Container>
 </Jumbotron>
-  
+    )
 }
+}
+
+export default Jumbotrons;
+
