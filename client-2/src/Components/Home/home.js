@@ -34,6 +34,7 @@ class Home extends Component {
           endpoint:'http://localhost:8000',
           
         }
+    }
 
         async componentDidMount() {
             try {
@@ -56,7 +57,7 @@ class Home extends Component {
          }
           
         }
-    }
+    
 
         render() {
             return(
