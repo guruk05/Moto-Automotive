@@ -1,3 +1,9 @@
 .contact{
     background-color: yellow;
 }
+
+.contactCard{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
