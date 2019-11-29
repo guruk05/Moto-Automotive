@@ -6,6 +6,14 @@ import './contact.css';
 
 
 class Contact extends Component{
+    constructor(props){
+        super(props)
+        this.state = {
+            name:"",
+            email:"",
+            comment:""
+        }
 
+    }
 }
 
