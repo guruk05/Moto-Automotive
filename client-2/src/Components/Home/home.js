@@ -56,4 +56,44 @@ class Home extends Component {
          }
           
         }
-}
+    }
+
+        render() {
+            return(
+              <div>
+                <DisplayCard></DisplayCard>
+                <Jumbotrons></Jumbotrons>
+            {this.state.data.map(i => {
+              return (
+                <p style={{flex: 1}} className="message">
+                <Toast className = "toast" style={{display: 'flex', flexDirection: 'row'}} style={{height:"28rem"}}>
+            <Toast.Header>
+              <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
+              <strong className="mr-auto"><h6><br/>{i.motoStation}</h6></strong>
+              {i.time}
+            </Toast.Header>
+            <div>
+            <Toast.Body>{i.availableBikes} Bikes Availabe! </Toast.Body>
+            <hr/>
+              <Toast.Body>
+              For Longer Travel : {i.petrolGreaterThan20L} Bikes</Toast.Body>
+              <hr/>
+              <Toast.Body>
+              For Short Travel : {i.petrolGreaterThan10L} Bikes</Toast.Body>
+              <hr/>
+              <Toast.Body>
+              With Sufficient Air Pressure : {i.airPressure} Bikes</Toast.Body>
+              <Toast.Body>
+              <hr/>
+              Watcher : {i.employeeName}</Toast.Body>
+              </div>
+          </Toast>
+                </p>
+              )
+            })}
+                <SimpleSlider></SimpleSlider>       
+          </div>
+            )
+            }
+        }
+
