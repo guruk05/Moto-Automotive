@@ -3,3 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Jumbotron, Container} from 'react-bootstrap';
 
 import './about.css';
+
+
+class About extends Component{
+
+    
+}
