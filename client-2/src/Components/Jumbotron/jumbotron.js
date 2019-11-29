@@ -11,8 +11,6 @@ class Jumbotrons extends Component{
 
 }
 
-
-
 render(){
     return(
         <Jumbotron fluid className="jumbotron">
