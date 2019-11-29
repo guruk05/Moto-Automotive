@@ -17,3 +17,7 @@ import Pricing from '../Pricing/pricing';
 import SimpleExpansionPanel from '../Faq/faq';
 import Contact from '../Contact/contact'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+
+class Home extends Component {
+}
