@@ -34,4 +34,26 @@ class Home extends Component {
           endpoint:'http://localhost:8000',
           
         }
+
+        async componentDidMount() {
+            try {
+              const response = await axios.get('http://localhost:8000/posts')
+              let datas = await response.data;
+              this.setState({data:datas});
+              const { endpoint } = this.state;
+              const socket = socketIOClient(endpoint);
+              socket.on('new message', data => { 
+              //   // this.setState(currentState => ({
+                  console.log(data);
+              //   //   'data': [...currentState.data, data.data]
+              //   // }));
+                let datas = data.result;
+                this.setState({data:datas});
+            })   
+          }   
+         catch(err) {
+           console.log(err);
+         }
+          
+        }
 }
