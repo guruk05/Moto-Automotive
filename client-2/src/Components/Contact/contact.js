@@ -15,5 +15,13 @@ class Contact extends Component{
         }
 
     }
+
+    handleChange = () => {
+
+    }
+
+    handleSubmit = () => {
+
+    }
 }
 
