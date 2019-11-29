@@ -70,3 +70,7 @@ please contact the MoTo Help Centre or MoTo Customer Care at 1900 308 9899</h6>
     }
 }
 
+
+export default Contact;
+
+
