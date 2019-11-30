@@ -5,7 +5,7 @@ const io = require('socket.io').listen(server);
 const cors = require('cors');
 const mongoose = require('mongoose');
 const EmployeeInputs = require('./Models/employeeInputs');  
-const EmployeeCredentials = require('./Models/userRegistration');
+const config = require('./Config/dev');
 
 const uri = "mongodb+srv://guru:UuH9LM8GdWy170RC@cluster0-4sldr.mongodb.net/test?retryWrites=true&w=majority"
 
