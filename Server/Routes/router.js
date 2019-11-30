@@ -12,7 +12,6 @@ const EmployeeCredentials = require('../Models/userRegistration');
 router.get("/posts",  async(req,res) => {
     try {
         const responses = await EmployeeInputs.find();
-        // console.log(responses);
         res.send(responses);
         
     }
