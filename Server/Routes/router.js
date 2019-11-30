@@ -22,6 +22,10 @@ router.get("/posts",  async(req,res) => {
   });
 
 
+//@type                      POST
+//@route                    /login
+//@description          This route is for employee login
+//@access                  Public
 router.post("/login", async(req,res) => {
     try {
         const responses = await EmployeeCredentials.find();
