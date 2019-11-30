@@ -5,21 +5,17 @@ const io = require('socket.io').listen(server);
 const cors = require('cors');
 const mongoose = require('mongoose');
 const EmployeeInputs = require('./Models/employeeInputs');  
-const config = require('./Config/dev');
-
-const uri = "mongodb+srv://guru:UuH9LM8GdWy170RC@cluster0-4sldr.mongodb.net/test?retryWrites=true&w=majority"
-
+const config = require('./Config/keys');
 
 app.use(cors());
 app.use(express.json());
 
 app.use('/', require('./Routes/router'));
 
-
 users = [];
 connections = [];
 
-mongoose.connect('mongodb+srv://guru:UuH9LM8GdWy170RC@cluster0-4sldr.mongodb.net/test?retryWrites=true&w=majority', { useUnifiedTopology: true , useNewUrlParser: true });
+mongoose.connect(config.mongoURI, { useUnifiedTopology: true , useNewUrlParser: true });
 console.log('connected');
 
 app.get('/', function(req, res) {
