@@ -2,10 +2,13 @@ const express = require('express');
 const router = express.Router();
 const EmployeeInputs = require('../Models/employeeInputs');   
 const EmployeeCredentials = require('../Models/userRegistration');
-// server
 
 
 
+//@type                      GET
+//@route                    /posts
+//@description          This route is for fetching employeeInput data 
+//@access                  Public
 router.get("/posts",  async(req,res) => {
     try {
         const responses = await EmployeeInputs.find();
