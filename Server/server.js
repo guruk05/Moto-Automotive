@@ -55,12 +55,7 @@ io.sockets.on('connection', function(socket) {
       console.log(err);
     }
     EmployeeInputs.find().then(result => {
-      // console.log(result);
-      // app.get("/posts", (req,res) => {
-      //     // const data = req.body.inputs;
-      //     res.send(result);
-      //     // getData(data);
-      //   });
+      
         io.sockets.emit('new message', {result}); 
       })
       console.log("emitted")
