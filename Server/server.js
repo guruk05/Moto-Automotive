@@ -55,47 +55,14 @@ io.sockets.on('connection', function(socket) {
       console.log(err);
     }
     EmployeeInputs.find().then(result => {
-      
+
         io.sockets.emit('new message', {result}); 
       })
       console.log("emitted")
-      // return data;
+      
   });
 });
 
-//  async function saveData(){
-// const employeeCredentials = new EmployeeCredentials({
-//   credentials:
-//     {
-// employeeId: "95324159",
-// employeePassword:"password",
-// employeeName: "Ranjith",
-//     }
-// })
-// try{
-//   let reg = await employeeCredentials.save();
-//   console.log(reg);
-// }
-// catch (err) {
-//   console.log(err)
-// }
-// }
-
-// saveData();
-
-
-// io.on('connection', function(socket) {
-//    console.log('A user connected');
-
-//    //Send a message after a timeout of 4seconds
-//    setInterval(function() {
-  //       socket.send('Sent a message 4seconds after t');
-  //    }, 5000);
-  
-  //  socket.on('disconnect', function () {
-    //     console.log('A user disconnected');
-    //  });
-    // });
-    server.listen(process.env.PORT || 8000);
+server.listen(process.env.PORT || 8000);
     
 console.log('server ruuning on PORT 8000');   
