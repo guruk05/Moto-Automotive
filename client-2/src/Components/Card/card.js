@@ -4,8 +4,8 @@ import {Card, Form, InputGroup , CardDeck , Button, Toast} from 'react-bootstrap
 import myImage from './5.png';
 
 
-class DisplayCard extends Component{
 
+class DisplayCard extends Component{
 
     render(){
         return(
@@ -20,6 +20,7 @@ class DisplayCard extends Component{
 </Card>
 )
         }
-}
+    }
+
 
 export default DisplayCard;
