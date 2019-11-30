@@ -52,10 +52,6 @@ class Nav extends Component{
         <a>Home</a>
         </Link>
 
-        {/* <Link>
-        <a>Blog</a>
-        </Link> */}
-
         <Link to="/pricing">
         <a>Pricing</a>
         </Link>
