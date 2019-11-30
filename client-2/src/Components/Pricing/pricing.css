@@ -1,17 +1,17 @@
-.pricing{
+.pricing {
     background-color: yellow;
-    margin-top:-0.5em;
+    margin-top: -0.5em;
 }
 
 
-.title{
+.title {
     text-align: center;
     letter-spacing: 5px;
 }
 
-.bodyText{
+.bodyText {
     text-align: center;
-    margin-top:3em;
+    margin-top: 3em;
     margin-left: 3em;
     margin-right: 3em;
 }
