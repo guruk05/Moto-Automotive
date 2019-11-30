@@ -9,18 +9,34 @@ class About extends Component{
 
     render(){
         return(
-        <Jumbotron fluid className="about">
+       <div>
+           <Jumbotron fluid className="pricing">
   <Container>
-    <h1>Fluid jumbotron</h1>
-    <p>
-      This is a modified jumbotron that occupies the entire horizontal space of
-      its parent.
-    </p>
+    <h1 className="title">About us</h1>
   </Container>
 </Jumbotron>
+<h5 className="bodyText">
+If you want to travel, you can take cabs or scooters and travel on your own.
+But to avail a scooter or bike you have to walk to nearby 
+Automobile Station, if your nearest Automobile station doesn't have any bikes
+even if they have bikes will you know if the available bikes are in rideable condition
+and whether the bike has sufficient fuel required for your travel. 
+<p>
+  <br/>
+Ok lets not make that much complicated, you choose a random bike and kickstart to ride , 
+unfortunately displayed fuel point is not sufficient to travel ..... Dont worry ..... 
+Welcome to MoTo .....
+we keep you updated on Automobile stations 24/7 with Realtime datas and live updates. We value your time.</p>
+
+Make decisions without visiting stations and travel with ease and comfort.  
+
+
+  <br/>
+  <br/>
+</h5>
+</div>
         )
     }
-
 }
 
 export default About;
