@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Card, Form, InputGroup , CardDeck , Button, Toast} from 'react-bootstrap';
+import {Card} from 'react-bootstrap';
 import './slider.css';
 import myImage from './MotoSlide3.png';
 import sliderImage from './Motoslide1.png';
