@@ -4,9 +4,9 @@
 
 # MoTo Application
 
-This is a Real Time Data transfer application built using Sockets. It tracks inflow and outflow, analyses upcoming data depending the past data's. As such, it offers more features than the normal input and output data displaying App.
+This is a Real Time Data transfer application built using Sockets for Automotive stations, which has high necessity to track the assets and also to display the available assets includig condition with high accuracy. It tracks inflow and outflow, analyses upcoming data depending the past data's. As such, it offers more features than the normal input and output data displaying App.
 
-Feel free to use it as a reference app or a starter kit.
+
 
 # Performance 
 
