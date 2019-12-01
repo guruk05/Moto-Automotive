@@ -8,6 +8,6 @@ This is a Real Time Data transfer application built using Sockets. It tracks inf
 
 Feel free to use it as a reference app or a starter kit.
 
-# Key concepts
+# Performance 
 
 
