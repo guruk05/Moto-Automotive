@@ -29,7 +29,7 @@ Designs are created using <a href="https://www.adobe.com/in/products/xd.html">Ad
 
 ![homeDesign](https://user-images.githubusercontent.com/54667515/69912873-b20a0c00-1455-11ea-8224-e6051bd28feb.PNG)
 
-<i>Home page design
+<i>Home page design<i>
 
 
 ![sliderDesigns](https://user-images.githubusercontent.com/54667515/69912878-c51cdc00-1455-11ea-9c7c-64598462267b.PNG)
