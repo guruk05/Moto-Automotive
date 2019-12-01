@@ -19,6 +19,11 @@ Feel free to use it as a reference app or a starter kit.
 * ####  <a href="https://www.mongodb.com/"> MongoDb </a>
 * ####  <a href="https://www.npmjs.com/package/react-router-dom"> React Router Dom </a>
 * ####  <a href="https://socket.io/">Socket io</a>
+* ####  <a href="https://babeljs.io/">Babel</a>
+* ####  <a href="https://github.com/prettier/prettier">Prettier</a>
+
+
+
 
 
 
