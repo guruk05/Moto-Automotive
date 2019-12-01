@@ -11,6 +11,6 @@ as the App has two interfaces one for employees and another for customers.
 
 Feel free to use it as a reference app or a starter kit.
 
-# Performance 
+# Stack
 
 
