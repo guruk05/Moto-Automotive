@@ -25,6 +25,8 @@ Feel free to use it as a reference app or a starter kit.
 
 # Design 
 
+Designs are created using <a href="https://www.adobe.com/in/products/xd.html">Adobe XD</a>
+
 
 
 
